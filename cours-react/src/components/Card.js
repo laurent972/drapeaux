@@ -16,9 +16,7 @@ const Card = (props) => {
           <li>{country.capital}</li>
           <li>Pop. : {numberFormat(country.population)}</li>
         </ul>
-      </div>
-    
-     
+      </div>     
     </li>
   );
 };
